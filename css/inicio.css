@@ -20,32 +20,31 @@ header > h1 {
     text-decoration: underline;
 }
 
-.search {
-    display: flex;
-    padding: 10px;
-}
-
-.search input {
-    width: 20vw;
-    padding: 10px;
+header button {
     border: none;
-    border-radius: 10px 0 0 10px;
-    background-color: #fdfdfd;
-}
-
-.search button {
-    width: auto;
-    padding: 10px;
-    border: none;
-    border-radius: 0 10px 10px 0;
+    border-radius: 20px;
     background-color: #fdfdfd;
     cursor: pointer;
+    position: relative;
+    left: 190px;
+}
+
+header button:hover {
+    transition: all 0.3s;
+    transform: scale(1.1);
+    background-color: #9fb9cf;
+}
+
+header button > img {
+    width: 28px;
+    margin: 8px 12px 8px 12px;
 }
 
 .navbar ul {
     display: flex;
     flex-direction: row;
     list-style: none;
+
 }
 
 li:hover {
